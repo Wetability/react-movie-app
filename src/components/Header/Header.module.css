@@ -1,0 +1,13 @@
+.wrapper {
+	max-width: 83.125rem;
+	margin: 0 auto;
+	padding-left: 0.9375rem;
+	padding-right: 0.9375rem;
+}
+
+.title {
+	font-family: var(--f-poppins);
+	font-size: 2.5rem;
+	font-weight: var(--w-regular);
+	color: var(--c-black);
+}

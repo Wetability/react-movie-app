@@ -1,0 +1,51 @@
+/* * Import fonts from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:wght@300;400;500;600;800&display=swap');
+
+/* * Global styles */
+:root {
+	/* * Colors */
+	--c-white: #fff;
+	--c-black: #000;
+
+	/* * Fonts */
+	--f-inter: 'Inter', sans-serif;
+	--f-poppins: 'Poppins', sans-serif;
+
+	/* * Weight */
+	--w-light: 300;
+	--w-regular: 400;
+	--w-normal: 500;
+	--w-semibold: 600;
+	--w-extrabold: 800;
+}
+
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	min-height: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: var(--c-white);
+}
+
+img {
+	width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	padding: 0;
+}
